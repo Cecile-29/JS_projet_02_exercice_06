@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+	<title>JS/projet_02/exercice_06</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid row p-3 justify-content-center">
+		<h1 class="col-12 text-center">JS projet_02 exercice_06</h1>
+		<p class="col-12 text-center">Au survol de la souris, chaque image doit changer, mais l'image initiale doit revenir dès que le curseur sort de l'image</p>
+	</div>
+	<div class="container-fluid col-12">
+		<img alt="image de couverture de livre sur le code" class="img-fluid" id="image1" onmouseover="changePicture(id)" onmouseout="returnPicture(id)" src="./img/image1.jpg">
+		<img alt="image de couverture de livre sur le code" class="img-fluid" id="image5" onmouseover="changePicture(id)" onmouseout="returnPicture(id)"src="./img/image3.jpg">
+		<img alt="image de couverture de livre sur le code" class="img-fluid" id="image3" onmouseover="changePicture(id)" onmouseout="returnPicture(id)"src="./img/image4.jpg">
+		<img alt="image de couverture de livre sur le code" class="img-fluid" id="image4" onmouseover="changePicture(id)" onmouseout="returnPicture(id)"src="./img/image5.jpg">
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
